@@ -160,6 +160,7 @@ const TaskItemOriginal = (props: IProps & typeof defaultProps) => {
 				onMouseLeave={(e) => {
 					onEventStart("mouseleave", task, e);
 				}}
+				// show a context menu while double click 
 				onDoubleClick={(e) => {
 					onEventStart("dblclick", task, e);
 				}}
